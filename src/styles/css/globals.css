@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.pattern {
+  background: linear-gradient(90deg, #ff2ee7, rgb(255, 0, 0)) 0 0;
+  /* background-size: 4rem; */
+  /* background-repeat: repeat; */
+}
+.trigger:hover > div {
+  height: 80px;
+}
+
+.clip {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
